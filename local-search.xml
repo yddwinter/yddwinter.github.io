@@ -8,7 +8,7 @@
     <link href="/2022/10/13/CRM%E5%95%86%E6%9C%BA%E9%98%B6%E6%AE%B5%E6%8E%A8%E8%BF%9B%E6%9B%B4%E6%96%B0%E5%BA%8F%E6%97%B6%E4%B8%80%E5%AE%A2%E4%B8%80%E5%8D%95%E7%8E%87/"/>
     <url>/2022/10/13/CRM%E5%95%86%E6%9C%BA%E9%98%B6%E6%AE%B5%E6%8E%A8%E8%BF%9B%E6%9B%B4%E6%96%B0%E5%BA%8F%E6%97%B6%E4%B8%80%E5%AE%A2%E4%B8%80%E5%8D%95%E7%8E%87/</url>
     
-    <content type="html"><![CDATA[<h2 id="一、需求背景"><a href="#一、需求背景" class="headerlink" title="一、需求背景"></a>一、需求背景</h2><p>销售部门在<strong>工程项目型商机推进流程</strong>中增加了<strong>序时一客一单率</strong>字段，用来衡量销售员对商机的跟进速度，作为绩效考核的依据。<br>具体是用根据不同的<strong>商机阶段</strong>，用<strong>一客一单完成率</strong>除以不同的比例，计算规则如下：</p><table><thead><tr><th align="center">商机阶段</th><th align="center">除以比例</th></tr></thead><tbody><tr><td align="center">商机立项</td><td align="center">18%</td></tr><tr><td align="center">标前引导</td><td align="center">62%</td></tr><tr><td align="center">合同谈判与签订</td><td align="center">100%</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<style>.center {  width: auto;  display: table;  margin-left: auto;  margin-right: auto;}</style><h2 id="一、需求背景"><a href="#一、需求背景" class="headerlink" title="一、需求背景"></a>一、需求背景</h2><p>销售部门在<strong>工程项目型商机推进流程</strong>中增加了<strong>序时一客一单率</strong>字段，用来衡量销售员对商机的跟进速度，作为绩效考核的依据。<br>具体是用根据不同的<strong>商机阶段</strong>，用<strong>一客一单完成率</strong>除以不同的比例，计算规则如下：</p><div class="center"><table><thead><tr><th align="center">商机阶段</th><th align="center">除以比例</th></tr></thead><tbody><tr><td align="center">商机立项</td><td align="center">18%</td></tr><tr><td align="center">标前引导</td><td align="center">62%</td></tr><tr><td align="center">合同谈判与签订</td><td align="center">100%</td></tr></tbody></table></div>]]></content>
     
     
     <categories>

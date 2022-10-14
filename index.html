@@ -8,9 +8,11 @@
 <head>
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <link rel="icon" href="/images/fluid.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="yddwinter">
@@ -62,7 +64,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"yddwinter.github.io","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":"caf08fffa568b8917f7bce151f134509","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"yddwinter.github.io","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"","loop":false,"scope":["home"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":"caf08fffa568b8917f7bce151f134509","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -211,13 +213,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/images/banner.png') no-repeat center center; background-size: cover;">
+     style="background: url('/images/banner.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="庐山烟雨浙江潮，未至千般恨不消。 到得还来别无事，庐山烟雨浙江潮。"></span>
+            <span id="subtitle" data-typed-text="读万卷书，行万里路。"></span>
           
         </div>
 
@@ -252,7 +254,13 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/10/13/CRM%E5%95%86%E6%9C%BA%E9%98%B6%E6%AE%B5%E6%8E%A8%E8%BF%9B%E6%9B%B4%E6%96%B0%E5%BA%8F%E6%97%B6%E4%B8%80%E5%AE%A2%E4%B8%80%E5%8D%95%E7%8E%87/" target="_self">
+          <img src="/images/crm.jpg" srcset="/img/loading.gif" lazyload alt="CRM商机阶段推进更新序时一客一单率">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h1 class="index-header">
         
         <a href="/2022/10/13/CRM%E5%95%86%E6%9C%BA%E9%98%B6%E6%AE%B5%E6%8E%A8%E8%BF%9B%E6%9B%B4%E6%96%B0%E5%BA%8F%E6%97%B6%E4%B8%80%E5%AE%A2%E4%B8%80%E5%8D%95%E7%8E%87/" target="_self">
@@ -261,9 +269,9 @@
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/10/13/CRM%E5%95%86%E6%9C%BA%E9%98%B6%E6%AE%B5%E6%8E%A8%E8%BF%9B%E6%9B%B4%E6%96%B0%E5%BA%8F%E6%97%B6%E4%B8%80%E5%AE%A2%E4%B8%80%E5%8D%95%E7%8E%87/" target="_self">
+      <a class="index-excerpt " href="/2022/10/13/CRM%E5%95%86%E6%9C%BA%E9%98%B6%E6%AE%B5%E6%8E%A8%E8%BF%9B%E6%9B%B4%E6%96%B0%E5%BA%8F%E6%97%B6%E4%B8%80%E5%AE%A2%E4%B8%80%E5%8D%95%E7%8E%87/" target="_self">
         <div>
-          .center {   width: auto;   display: table;   margin-left: auto;   margin-right: auto; }   一、需求背景销售部门在工程项目型商机推进流程中增加了序时一客一单率字段，用来衡量销售员对商机的跟进速度，作为绩效考核的依据。具体是用根据不同的商机阶段，用一客一单完成率除以不同的比例，计算规则如下：      商机阶段
+          编写APL函数更新表单，配置CRM工作流监测字段值变化
         </div>
       </a>
 
@@ -302,77 +310,11 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/APL/">#APL</a>
-            
               <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/">#工作流</a>
             
+              <a href="/tags/Groovy/">#Groovy</a>
+            
           </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/10/12/My-First-Post/" target="_self">
-          My First Post
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/10/12/My-First-Post/" target="_self">
-        <div>
-          
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-10-12 14:10" pubdate>
-              2022-10-12
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/10/12/hello-world/" target="_self">
-          Hello World
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/10/12/hello-world/" target="_self">
-        <div>
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-10-12 14:03" pubdate>
-              2022-10-12
-            </time>
-          </div>
-        
-        
         
       </div>
     </article>

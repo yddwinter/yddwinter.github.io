@@ -24,12 +24,14 @@
 <meta property="og:description" content=".center {   width: auto;   display: table;   margin-left: auto;   margin-right: auto; }   一、需求背景销售部门在工程项目型商机推进流程中增加了序时一客一单率字段，用来衡量销售员对商机的跟进速度，作为绩效考核的依据。具体是用根据不同的商机阶段，用一客一单完成率除以不同的比例，计算规则如下：      商机阶段">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-10-13T06:47:31.000Z">
-<meta property="article:modified_time" content="2022-10-13T08:23:36.066Z">
+<meta property="article:modified_time" content="2022-10-13T09:33:01.487Z">
 <meta property="article:author" content="yddwinter">
 <meta property="article:tag" content="APL">
 <meta property="article:tag" content="工作流">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>CRM商机阶段推进更新序时一客一单率 - yddwinter&#39;s Blog</title>
@@ -248,7 +250,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          201 字
+          322 字
         
       </span>
     
@@ -259,7 +261,7 @@
         
         
         
-          2 分钟
+          3 分钟
         
       </span>
     
@@ -330,11 +332,18 @@
 <td align="center">62%</td>
 </tr>
 <tr>
+<td align="center">解决方案与投标</td>
+<td align="center">93%</td>
+</tr>
+<tr>
 <td align="center">合同谈判与签订</td>
 <td align="center">100%</td>
 </tr>
 </tbody></table>
 </div>
+
+<h2 id="二、问题分析"><a href="#二、问题分析" class="headerlink" title="二、问题分析"></a>二、问题分析</h2><p>销售人员填写<strong>销售行动记录</strong>会重新计算<strong>一客一单完成率</strong>，这时<strong>序时一客一单率</strong>也要相应重新计算；<br>销售人员将商机推进到下一阶段，表单<strong>商机阶段</strong>的值会变化,<strong>序时一客一单率</strong>要重新计算。</p>
+<h2 id="三、问题解决"><a href="#三、问题解决" class="headerlink" title="三、问题解决"></a>三、问题解决</h2><p>使用工作流，对流程字段进行监控。</p>
 
                 
               </div>
@@ -536,6 +545,30 @@
     </div>
   
   
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
   
   
 </div>
@@ -681,6 +714,8 @@
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 
